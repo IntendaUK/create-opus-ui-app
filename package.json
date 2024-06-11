@@ -1,0 +1,19 @@
+{
+  "name": "opus-ui-starter-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool to build Opus UI react applications based on Vite",
+  "main": "src/cli.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Intenda",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "inquirer": "^9.2.23"
+  },
+  "bin": {
+    "create-opus-ui-app": "src/cli.js"
+  }
+}
