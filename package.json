@@ -23,5 +23,8 @@
 	},
 	"bin": {
 		"create-opus-ui-app": "src/cli.js"
+	},
+	"publishConfig": {
+		"access": "public"
 	}
 }
