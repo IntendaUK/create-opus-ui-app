@@ -1,19 +1,27 @@
 {
-  "name": "opus-ui-starter-cli",
-  "version": "1.0.0",
-  "description": "A CLI tool to build Opus UI react applications based on Vite",
-  "main": "src/cli.js",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Intenda",
-  "license": "MIT",
-  "dependencies": {
-    "commander": "^12.1.0",
-    "inquirer": "^9.2.23"
-  },
-  "bin": {
-    "create-opus-ui-app": "src/cli.js"
-  }
+	"name": "@intenda/opus-ui-starter-cli",
+	"version": "1.0.0",
+	"private": false,
+	"description": "A CLI tool to build Opus UI react applications based on Vite",
+	"main": "src/cli.js",
+	"homepage": "https://opus-ui.com",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"opus-ui",
+		"starter-cli",
+		"starter",
+		"cli"
+	],
+	"author": "Intenda",
+	"license": "MIT",
+	"dependencies": {
+		"commander": "^12.1.0",
+		"inquirer": "^9.2.23"
+	},
+	"bin": {
+		"create-opus-ui-app": "src/cli.js"
+	}
 }

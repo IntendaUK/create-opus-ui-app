@@ -2,6 +2,11 @@
 
 `create-opus-ui-app` is a CLI tool to quickly set up a Vite React application with your selected Opus UI libraries preinstalled. This tool streamlines the process of initializing a new [Opus UI](https://github.com/IntendaUK/opus-ui) project, adding required dependencies, and configuring initial project settings.
 
+## Usage
+
+1. `npx create-opus-ui-app`
+2. Follow prompts
+
 ## Features
 
 - Easy project setup with Vite and React.
